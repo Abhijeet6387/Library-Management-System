@@ -27,30 +27,12 @@
    color: white;
  }
 
- .topnav .search-container {
-   float: right;
- }
 
  .topnav input[type=text] {
    padding: 6px;
    margin-top: 8px;
    font-size: 12px;
    border: none;
- }
-
- .topnav .search-container button {
-   float: right;
-   padding: 6px 10px;
-   margin-top: 8px;
-   margin-right: 16px;
-   background: #6855FF;
-   font-size: 12px;
-   border: none;
-   cursor: pointer;
- }
-
- .topnav .search-container button:hover {
-   background: #DF72E6;
  }
 
  @media screen and (max-width: 600px) {
@@ -68,7 +50,7 @@
    .topnav input[type=text] {
      border: 1px solid #ccc;  
    }
-   .sidenav {
+   /* .sidenav {
      height: 100%;
      width: 0;
      position: fixed;
@@ -105,5 +87,7 @@
    @media screen and (max-height: 450px) {
      .sidenav {padding-top: 15px;}
      .sidenav a {font-size: 18px;}
-   }
-}
+
+    } */
+      
+  }
