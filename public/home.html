@@ -21,11 +21,11 @@
         </div>
     </div>
     <div class="topnav">
-        <a class="active" href="#">Home</a>
-        <a href="#">Books</a>
-        <a href="#">Availability</a>
-        <a href="#">Issue Book</a>
-        <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+        <a class="active" href="#"><i class="fa fa-home"  aria-hidden="true" style="font-size:20px"></i>Home</a>
+        <a href="#"><i class="fa fa-book" aria-hidden="true" style="font-size:20px"></i>Books</a>
+        <a href="#"><i class="fa fa-clock-o" aria-hidden="true" style="font-size:20px"></i>Availability</a>
+        <a href="#"><i class="fa fa-check" aria-hidden="true" style="font-size:20px"></i>Issue Book</a>
+        <a onclick="document.getElementById('id01').style.display='block'" style="float: right;"><i class="fa fa-user-circle-o" aria-hidden="true" style="font-size:20px"></i>Login</a>
     </div>
     <div id="id01" class="modal">
       <form class="modal-content animate" action="/action_page.php" method="post">
@@ -46,7 +46,7 @@
           </label>
         </div>
     
-        <div class="container" style="background-color:#f1f1f1">
+        <div class="container-fluid" style="background-color:#f1f1f1">
           <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
           <span class="psw">Forgot <a href="#">password?</a></span>
         </div>

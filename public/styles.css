@@ -27,6 +27,10 @@
    color: white;
  }
 
+ .topnav i {
+  display:contents;
+ }
+
 
  .topnav input[type=text] {
    padding: 6px;
