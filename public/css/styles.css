@@ -16,6 +16,9 @@
     color: #ECF0F1;
     text-align: center;
  } */
+ .card {
+   background-color: #ffe6ff ;
+ }
  .topnav {
    overflow: hidden;
    background-color:#DF72E6;
